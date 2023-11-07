@@ -1,0 +1,22 @@
+{
+  "name": "@svelte-chat/install_all",
+  "version": "0.0.1",
+  "description": "Install full @svelte-chat solution script",
+  "main": "index.js",
+  "scripts": {
+    "run_dev": "tsc && npx .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kotekpsotek",
+  "license": "Apache-2.0",
+  "bin": "./index.js",
+  "devDependencies": {
+    "@types/cli-color": "^2.0.5",
+    "@types/node": "^20.8.10"
+  },
+  "dependencies": {
+    "@svelte-chat/gui": "^0.0.4",
+    "@svelte-chat/plugin": "^0.0.5",
+    "cli-color": "^2.0.3"
+  }
+}
